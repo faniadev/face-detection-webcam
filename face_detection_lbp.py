@@ -1,7 +1,7 @@
 import numpy as np
 import cv2
 
-lbp_file = '/Users/faniardelia/anaconda3/lib/python3.7/site-packages/cv2/data/lbpcascade_frontalface.xml'
+lbp_file = 'lbpcascade_frontalface.xml'
 (width, height) = (130, 100)     
 face_cascade = cv2.CascadeClassifier(lbp_file)
 video = cv2.VideoCapture(0)
